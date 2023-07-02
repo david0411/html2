@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.piano-keys {
+    display: flex;
+    list-style: none;
+}
+.piano-keys .key {
+    cursor: pointer;
+}
+.piano-keys .white {
+    z-index: 1;
+    width: 50px;
+    height: 150px;
+    border: 1px solid #000;
+    background: #fff;
+}
+.piano-keys .black {
+    z-index: 2;
+    width: 25px;
+    height: 90px;
+    margin: 0 -12.5px 0 -12.5px;
+    border-radius: 0 0 5px 5px;
+    background: #000;
+}
+.piano-keys .black:hover {
+    background: #4f4f4f;
+}
+.piano-keys .white:hover {
+    background: #cdcdcd;
+}
