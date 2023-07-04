@@ -4,24 +4,27 @@
     <meta charset="UTF-8">
     <title>keyboard</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#">
 </head>
 <body>
 <div>
     <ul class="piano-keys">
-        <li class="key white"></li>
-        <li class="key black"></li>
-        <li class="key white"></li>
-        <li class="key black"></li>
-        <li class="key white"></li>
-        <li class="key white"></li>
-        <li class="key black"></li>
-        <li class="key white"></li>
-        <li class="key black"></li>
-        <li class="key white"></li>
-        <li class="key black"></li>
-        <li class="key white"></li>
-        <li class="key white"></li>
+        <li class="key white" onclick="playNote('C1')" id="KeyF"></li>
+        <li class="key black" onclick="playNote('C1s')" id="KeyT"></li>
+        <li class="key white" onclick="playNote('D1')" id="KeyG"></li>
+        <li class="key black" onclick="playNote('D1s')" id="KeyY"></li>
+        <li class="key white" onclick="playNote('E1')" id="KeyH"></li>
+        <li class="key white" onclick="playNote('F1')" id="KeyJ"></li>
+        <li class="key black" onclick="playNote('F1s')" id="KeyI"></li>
+        <li class="key white" onclick="playNote('G1')" id="KeyK"></li>
+        <li class="key black" onclick="playNote('G1s')" id="KeyO"></li>
+        <li class="key white" onclick="playNote('A1')" id="KeyL"></li>
+        <li class="key black" onclick="playNote('A1s')" id="KeyP"></li>
+        <li class="key white" onclick="playNote('B1')" id="Semicolon"></li>
+        <li class="key white" onclick="playNote('C2')" id="Quote"></li>
     </ul>
 </div>
+
+<script src="script.js"></script>
 </body>
 </html>
